@@ -29,6 +29,7 @@ export const DATA = {
     "Mongo DB",
     "Docker",
     "PostgreSQL",
+    "Prisma ORM",
     "Git/GitHub",
     "Vite",
     "Monorepo",
@@ -39,6 +40,7 @@ export const DATA = {
     "Redis",
     "WebSockets",
     "WebRTC",
+    "GRPC",
     "OpenAPI",
     "Appwrite"
   ],
