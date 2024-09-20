@@ -159,7 +159,7 @@ export const DATA = {
       dates: "May 2024",
       active: true,
       description:
-        "Platform where we can send transactions and use bank webhook for on Ramp transactions ",
+        "Platform where we can send transactions by using database transactions and use bank webhook for on Ramp transactions ",
       technologies: [
         "TurboRepoes",
         "Next.js",
