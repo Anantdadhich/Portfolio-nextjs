@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    " I am Full Stack Developer. Passionate about learning new things ,and have Egarness to learn and Current focus on Blockchains tech like Solanan and ethereum.",
+    " I am Full Stack Developer. Passionate about my work ,and have eagerness to learn new skills and Current focus on Blockchains tech like Solana and etherum.",
   summary:
-    "I am an developer i love to code and whenever gets bored turns into music currently focus on blockchain technologies .",
+    "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
     "HTML",
     "CSS",
