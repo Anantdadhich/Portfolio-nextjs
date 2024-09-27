@@ -286,7 +286,7 @@ export const DATA = {
       links: [
         {
           type: "Live URL",
-          href: "https://cyberfiction-clone-two.vercel.app",
+          href: "https://technoverse-two.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
