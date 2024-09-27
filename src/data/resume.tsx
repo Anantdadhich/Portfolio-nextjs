@@ -269,12 +269,12 @@ export const DATA = {
       ]
     },
     {
-      title: "Cyberfiction Clone",
-      href: "https://cyberfiction-clone-two.vercel.app",
+      title: "Technoverse",
+      href: "https://technoverse-two.vercel.app/",
       dates: "January 2024",
       active: true,
       description:
-        "  Cyberficiton website which is made up of GSAP animations  ",
+        "  Technoverse webpage for avatars which is made up of GSAP animations  ",
       technologies: [
         "HTML",
         "CSS",
