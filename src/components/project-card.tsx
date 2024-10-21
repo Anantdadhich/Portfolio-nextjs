@@ -72,7 +72,11 @@ export function ProjectCard({
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
+
           <CardTitle className="mt-1 text-base text-white  ">{title}</CardTitle>
+
+          <CardTitle className="mt-1 text-base text-white">{title}</CardTitle>
+
           <time className="font-sans text-xs text-white">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}

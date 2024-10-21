@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    " I am Full Stack Developer. Passionate about learning new things ,and have Egarness to learn and Current focus on Blockchains tech like Solanan and ethereum.",
+    " I am Full Stack Developer. Passionate about my work ,and have eagerness to learn new skills and Current focus on Blockchains tech like Solana and etherum.",
   summary:
-    "I am an developer i love to code and whenever gets bored turns into music currently focus on blockchain technologies .",
+    "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
     "HTML",
     "CSS",
@@ -29,6 +29,7 @@ export const DATA = {
     "Mongo DB",
     "Docker",
     "PostgreSQL",
+    "Prisma ORM",
     "Git/GitHub",
     "Vite",
     "Monorepo",
@@ -39,6 +40,7 @@ export const DATA = {
     "Redis",
     "WebSockets",
     "WebRTC",
+    "GRPC",
     "OpenAPI",
     "Appwrite"
   ],
@@ -267,12 +269,12 @@ export const DATA = {
       ]
     },
     {
-      title: "Cyberfiction Clone",
-      href: "https://cyberfiction-clone-two.vercel.app",
+      title: "Technoverse",
+      href: "https://technoverse-two.vercel.app/",
       dates: "January 2024",
       active: true,
       description:
-        "  Cyberficiton website which is made up of GSAP animations  ",
+        "  Technoverse webpage for avatars which is made up of GSAP animations  ",
       technologies: [
         "HTML",
         "CSS",
@@ -284,7 +286,7 @@ export const DATA = {
       links: [
         {
           type: "Live URL",
-          href: "https://cyberfiction-clone-two.vercel.app",
+          href: "https://technoverse-two.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
 # Features
 
@@ -10,7 +5,4 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 
 # Getting Started Locally
-
-1. Clone this repository 
-
->>>>>>> 39f8e9d82f742abe144a8758e57280e211476601
+ Clone this repository 
