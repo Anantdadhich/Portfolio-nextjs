@@ -67,7 +67,7 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Full Name"
             required={true}
-            className="focus:border-green-500 dark:bg-[#001100] bg-gray-200 rounded-none focus-visible:ring-0"
+            className="focus:border-green-500 dark:bg-[#001100] bg-gray-100 rounded-none focus-visible:ring-0  "
             value={form.name}
           />
         </div>
@@ -79,7 +79,7 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Email"
             required={true}
-            className="focus:border-green-500 dark:bg-[#001100] bg-gray-200  rounded-none focus-visible:ring-0"
+            className="focus:border-green-500 dark:bg-[#001100] bg-gray-100  rounded-none focus-visible:ring-0"
             value={form.email}
           />
         </div>
@@ -92,7 +92,7 @@ export default function ContactForm() {
           placeholder="Your message"
           onChange={handleChange}
           required={true}
-          className="focus:border-green-500 dark:bg-[#001100] bg-gray-200  rounded-none focus-visible:ring-0 resize-none"
+          className="focus:border-green-500 dark:bg-[#001100] bg-gray-100  rounded-none focus-visible:ring-0 resize-none"
           value={form.msg}
         />
       </div>

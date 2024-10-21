@@ -23,6 +23,8 @@ import MatrixRain from "@/components/ui/matrix-bg";
 
 import TypingEffect from "@/components/ui/typing-effect";
 import RevealAnimation from "@/components/ui/reveal-animation";
+import { ResumeCard } from "@/components/resume-card";
+import { HackathonCard } from "@/components/hackethoncard";
 
 const BLUR_FADE_DELAY = 0.5;
 
@@ -116,13 +118,14 @@ export default function Page() {
         </div>
       </div>
     </section>   
+     
       
     <section id="projects">
       <div className="space-y-12 w-full py-12">
         <BlurFade delay={BLUR_FADE_DELAY * 5}>
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block text-green-800 bg-gray-200 dark:bg-white text-background px-3 py-1 text-sm transition-transform duration-300 hover:scale-105">
+              <div className="inline-block text-green-800 bg-gray-100 dark:bg-white text-background px-3 py-1 text-sm transition-transform duration-300 hover:scale-105">
                 My Projects
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl hover:text-green-600 transition-colors duration-300">
@@ -158,11 +161,71 @@ export default function Page() {
         </div>
       </div>
     </section>
+     <section id="work">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Work Experience</h2>
+          </BlurFade>
+          {DATA.work.map((work, id) => (
+            <BlurFade
+              key={work.company}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
+              <ResumeCard
+                key={work.company}
+                logoUrl={work.logoUrl}
+                altText={work.company}
+                title={work.company}
+                subtitle={work.title}
+               
+                badges={work.badges}
+                period={`${work.start} - ${work.end ?? "Present"}`}
+               
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
+   <section id="hackathons">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-white text-background px-3 py-1 text-sm text-green-800">
+                  Hackathons
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  I like building things
+                </h2>
+              
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l ">
+              {DATA.hackathons.map((project, id) => (
+                <BlurFade
+                  key={project.title + project.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <HackathonCard
+                    title={project.title}
+                    description={project.description}
+                    location={project.location}
+                    dates={project.dates}
+                
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
+        </div>
+      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <div className="space-y-3">
-              <div className="inline-block text-green-800 bg-gray-200 dark:bg-white  text-background px-3 py-1 text-sm">
+              <div className="inline-block text-green-800 bg-gray-100 dark:bg-white  text-background px-3 py-1 text-sm">
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">

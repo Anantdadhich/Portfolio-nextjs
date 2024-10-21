@@ -3,7 +3,7 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Anant Dadhich - Developer",
-  initials: "TV",
+  initials: "AD",
   url:"https://anant",
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
@@ -42,7 +42,9 @@ export const DATA = {
     "WebRTC",
     "GRPC",
     "OpenAPI",
-    "Appwrite"
+    "Appwrite",
+    "Testing",
+    "Solana"
   ],
   navbar: [{ href: "/#", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -75,7 +77,9 @@ export const DATA = {
       },
     },
   }
-  ,
+ ,
+
+
   projects: [
     {
       title: "Coursu.ai",
@@ -354,5 +358,36 @@ export const DATA = {
         },
       ],
     }
-  ],
+  ]
+   ,work:[ {
+      company: "Ready Bytes",
+
+      badges: [],
+      location: "Bhilwara",
+      title: "Full Stack Development internship",
+      logoUrl: "/ready-bytes-logo.png",
+      start: "July 2024",
+      end: "Aug 2024",
+     
+    }], hackathons: [
+    {
+      title: "Google Gen AI",
+      dates: "September 20th - October 2th, 2024",
+      location: "Virtual, Devfolio",
+      description:
+        "I participated in a hackathon and developed an AI-generated course platform that creates courses using Next.js, Gemini API, and YouTube API.",
+      
+      
+    },  {
+      title: "HackIndia",
+      dates: "October 3rd -  4th, 2024",
+      location: "PIET,Jaipur",
+      description:
+        "I participated in a hackathon and developed an NFT music marketplace using technologies like Solidity .",
+      
+      
+    }
+    
+  ]
+    
 };
