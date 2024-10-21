@@ -43,7 +43,7 @@ export function ProjectCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full rounded-none hover:border-green-600 bg-[#001100] group"
+        "flex flex-col overflow-hidden border-2 rounded-lg hover:shadow-lg transition-all duration-300 ease-out h-full  hover:border-green-600 dark:bg-[#001100] bg-gray-200  group  "
       }
     >
       <Link
@@ -73,11 +73,10 @@ export function ProjectCard({
       <CardHeader className="px-2">
         <div className="space-y-1">
 
-          <CardTitle className="mt-1 text-base text-white  ">{title}</CardTitle>
 
-          <CardTitle className="mt-1 text-base text-white">{title}</CardTitle>
+          <CardTitle className="mt-1 text-base dark:text-white text-black">{title}</CardTitle>
 
-          <time className="font-sans text-xs text-white">{dates}</time>
+          <time className="font-sans text-xs dark:text-white text-black">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>

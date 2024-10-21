@@ -106,6 +106,7 @@ export const DATA = {
     },
      {
       title: "Bugpeer-finder",
+
       dates: "May 2024",
       active: true,
       description:
@@ -127,7 +128,8 @@ export const DATA = {
           href: "https://github.com/Anantdadhich/Bugfinder-paircode",
           icon: <Icons.github className="size-3" />,
         },
-      ]
+      ],
+      image:"/nvidia.png,"
     },
     {
       title: "Checkers",
@@ -238,6 +240,62 @@ export const DATA = {
         {
           type: "Codebase",
           href: "https://github.com/Anantdadhich/snapgram",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    },
+      {
+      title: "Devtalk",
+      href: "https://plinkoo-azure.vercel.app/",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "It is platform where developers connect with random dev just like omegle and share thier thoughts and ideas",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "WebRTC",
+         "Express.js",
+        "TailwindCSS",
+        
+        "Aceternity UI",
+        
+      ],
+      links: [
+    
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/devtalk",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    },
+    {
+      title: "Plinkoo",
+      href: "https://plinkoo-azure.vercel.app/",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "Gambling website like plinko on stake platform",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "Canvas",
+            "Express.js",
+        "TailwindCSS",
+        
+        "Aceternity UI",
+        
+      ],
+      links: [
+        {
+          type: "Live URL",
+          href: "https://plinkoo-azure.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/plinkoo",
           icon: <Icons.github className="size-3" />,
         },
       ]
