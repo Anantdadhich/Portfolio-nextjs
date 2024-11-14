@@ -8,24 +8,21 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    " I am Full Stack Developer. Passionate about my work ,and have eagerness to learn new skills and Current focus on Blockchains tech like Solana and etherum.",
+    " I am Full Stack Developer. Passionate about my work ,and have eagerness to learn new skills and Currently focus on Blockchains tech like Solana and etherum.",
   summary:
     "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Material UI",
-    "Shadcn UI",
+   
     "JavaScript",
     "TypeScript",
+     "Rust",
+     "C++",
     "Next JS",
     "React JS",
     "Node JS",
     "Express JS",
     "Hono JS",
-     "C++",
-    "Recoil",
+     "Recoil",
     "Mongo DB",
     "Docker",
     "PostgreSQL",
@@ -44,7 +41,11 @@ export const DATA = {
     "OpenAPI",
     "Appwrite",
     "Testing",
-    "Solana"
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Material UI",
+    "Shadcn UI",
   ],
   navbar: [{ href: "/#", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -152,7 +153,9 @@ export const DATA = {
         "Web Sockets",
         "Shadcn UI",
         "Passport Js",
-        "Node Js"
+        "Node Js",
+        "Redis",
+        "PubSub"
       ],
       links: [
         {
@@ -261,7 +264,7 @@ export const DATA = {
         "WebRTC",
          "Express.js",
         "TailwindCSS",
-        
+        "WebSockets",
         "Aceternity UI",
         
       ],
