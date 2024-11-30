@@ -8,44 +8,47 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    " I am Full Stack Developer. Passionate about my work ,and have eagerness to learn new skills and Currently focus on Blockchains tech like Solana and etherum.",
+    " I am a Full Stack Developer with a strong eagerness to learn new skills. Right now, I am exploring open-source projects and blockchain technologies like Solana and Ethereum",
   summary:
     "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
-   
-    "JavaScript",
-    "TypeScript",
-     "Rust",
-     "C++",
-    "Next JS",
-    "React JS",
-    "Node JS",
-    "Express JS",
-    "Hono JS",
-     "Recoil",
-    "Mongo DB",
-    "Docker",
-    "PostgreSQL",
-    "Prisma ORM",
-    "Git/GitHub",
-    "Vite",
-    "Monorepo",
-    "AWS",
-    "CloudFlare",
-    "Stripe",
-    "Turborepoes",
-    "Redis",
-    "WebSockets",
-    "WebRTC",
-    "GRPC",
-    "OpenAPI",
-    "Appwrite",
-    "Testing",
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Material UI",
-    "Shadcn UI",
+ "JavaScript",
+"TypeScript",
+"Rust",
+"C++",
+"Solidity",
+"Next JS",
+"React JS",
+"Node JS",
+"Express JS",
+"Hono JS",
+"Recoil",
+"Mongo DB",
+"PostgresSQL",
+"Prisma ORM",
+"Docker",
+"Git/GitHub",
+"Vite",
+"Monorepo",
+"AWS",
+"CloudFlare",
+"Stripe",
+"Turborepoes",
+"Redis",
+"Pub Sub",
+"WebSockets",
+"WebRTC",
+"GRPC",
+"OpenAPI",
+"SolanaWeb3.js",
+"Appwrite",
+"Testing",
+"HTML",
+"CSS",
+"Tailwind CSS",
+"Material UI",
+"Shadcn UI",
+"GSAP"
   ],
   navbar: [{ href: "/#", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -110,7 +113,7 @@ export const DATA = {
       ]
     },
      {
-      title: "Bugpeer-finder",
+      title: "Devfinder",
 
       dates: "May 2024",
       active: true,
@@ -191,6 +194,32 @@ export const DATA = {
         },
       ]
     },
+     {
+      title: "BrainyChain.ai",
+      dates: "Nov 2024",
+      active: true,
+      description:
+        "It is an AI-powered Telegram bot designed to guide you in creating a Solana wallet, generating tokens, and minting NFTs ",
+      technologies: [
+        "Telegraf",
+        "Express.js",
+        "Typescript",
+        "Pinata IPFS",
+        "Prisma",
+        "SolanaWeb3.js",
+        "Metaplex",
+         "GeminiAPI"
+      
+      ],
+      links: [
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/Brainychain",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    }
+,
     {
       title: "Discode",
       href: "https://discode-production.up.railway.app/",
@@ -360,6 +389,33 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
+    },
+    {
+      title: "Webtube",
+      href: "https://web-tube-delta.vercel.app/",
+      dates: "July 2024",
+      active: true,
+      description:
+        "It is Homepage similar like Youtube",
+      technologies: [
+        "React.js",
+         "Typescript",
+     "TailwindCSS",
+         "Shadcn UI",
+    
+      ],
+      links: [
+        {
+          type: "Live URL",
+          href: "https://web-tube-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/Web-tube",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
     }
   ]
    ,work:[ {

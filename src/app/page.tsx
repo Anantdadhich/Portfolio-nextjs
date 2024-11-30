@@ -46,7 +46,7 @@ export default function Page() {
                 
               </div>
               <TypingEffect
-                className="max-w-[600px] md:text-xl text-green-500 [text-shadow:0_0_10px_rgba(0,255,0,0.5)]"
+                className="max-w-[600px] md:text-xl text-green-500 [text-shadow:0_0_10px_rgba(0,255,0,0.5)] font-mono"
                 text={DATA.description}
                 delay={0.0025}
                 delayStart={0.75}
@@ -105,11 +105,11 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
           <h2 className="text-xl font-bold">Tech Stack</h2>
         </BlurFade>
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-2">
           {DATA.skills.map((skill, id) => (
             <RevealAnimation
               key={id}
-              className="bg-white px-2 text-green-800 text-sm transition-all duration-300 ease-in-out hover:bg-green-800 hover:text-white hover:scale-110"
+              className="bg-white px-2  text-green-800 text-sm transition-all duration-300 ease-in-out hover:bg-green-800 hover:text-white hover:scale-110 rounded-md font-medium"
               delay={BLUR_FADE_DELAY * 3 + id * 0.05}
             >
               {skill}
