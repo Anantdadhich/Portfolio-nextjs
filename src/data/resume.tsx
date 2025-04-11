@@ -8,15 +8,13 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    " I am a Full Stack Developer with a strong eagerness to learn new skills. Right now, I am exploring open-source projects and blockchain technologies like Solana and Ethereum",
+    "Hi, I am a Full Stack & Blockchain Developer. Currently building in Web3 and beyond, contributing to open-source projects, and always open to freelance gigs. Feel free to contact me! ↓ ",
   summary:
     "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
  "JavaScript",
 "TypeScript",
 "Rust",
-"C++",
-"Solidity",
 "Next JS",
 "React JS",
 "Node JS",
@@ -29,10 +27,7 @@ export const DATA = {
 "Docker",
 "Git/GitHub",
 "Vite",
-"Monorepo",
-"AWS",
 "CloudFlare",
-"Stripe",
 "Turborepoes",
 "Redis",
 "Pub Sub",
@@ -41,7 +36,7 @@ export const DATA = {
 "GRPC",
 "OpenAPI",
 "SolanaWeb3.js",
-"Appwrite",
+"Anchor Solana",
 "Testing",
 "HTML",
 "CSS",
@@ -169,27 +164,29 @@ export const DATA = {
       ]
     },
     {
-      title: "Paytm Clone",
-      dates: "May 2024",
+      title: "Fruity Slice",
+      href: "https://fruityslice.vercel.app/",
+      dates: "April 2025",
       active: true,
       description:
-        "Platform where we can send transactions by using database transactions and use bank webhook for on Ramp transactions ",
+        "It is a Fruity Slice token game on Solana, where players can slash fruits and earn SOL tokens based on their score",
       technologies: [
-        "TurboRepoes",
-        "Next.js",
-        "Typescript",
-        "Docker",
-        "Prisma",
+        "React JS",
+        "SolanaWeb3.js",
         "TailwindCSS",
         "Express JS",
         "Node Js",
         "Shadcn UI",
-        "Next-Auth",
       ],
       links: [
         {
+          type: "Live URL",
+          href: "https://fruityslice.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Codebase",
-          href: "https://github.com/Anantdadhich/PAYTM",
+          href: "https://github.com/Anantdadhich/fruityslice",
           icon: <Icons.github className="size-3" />,
         },
       ]
@@ -212,9 +209,32 @@ export const DATA = {
       
       ],
       links: [
+       
         {
           type: "Codebase",
           href: "https://github.com/Anantdadhich/Brainychain",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    }, {
+      title: "FluidNFT",
+      href: "https://web-tube-delta.vercel.app/",
+      dates: "July 2024",
+      active: true,
+      description:
+        "FluidNFT is a Solana-based platform that lets you instantly swap your SOL NFTs for any token with ease and speed.",
+      technologies: [
+        "Next.js",
+         "Typescript",
+     "TailwindCSS",
+         "Shadcn UI",
+         "SolanaWeb3.js",
+         "Metaplex",
+      ],
+      links: [
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/fluidnft",
           icon: <Icons.github className="size-3" />,
         },
       ]
@@ -251,6 +271,36 @@ export const DATA = {
       ]
     },
     {
+      title: "Devtalk",
+      href: "https://plinkoo-azure.vercel.app/",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "It is platform where developers connect with random dev just like omegle and share thier thoughts and ideas",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "WebRTC",
+         "Express.js",
+        "TailwindCSS",
+        "WebSockets",
+        "Aceternity UI",
+        
+      ],
+      links: [
+        {
+          type: "Live URL",
+          href: "https://devtalk-iota.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/devtalk",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    },
+    {
       title: "Snapgram",
       href: "https://social-media-app-blue-one.vercel.app",
       dates: "March 2024",
@@ -280,32 +330,7 @@ export const DATA = {
         },
       ]
     },
-      {
-      title: "Devtalk",
-      href: "https://plinkoo-azure.vercel.app/",
-      dates: "Sept 2024",
-      active: true,
-      description:
-        "It is platform where developers connect with random dev just like omegle and share thier thoughts and ideas",
-      technologies: [
-        "React.js",
-        "Typescript",
-        "WebRTC",
-         "Express.js",
-        "TailwindCSS",
-        "WebSockets",
-        "Aceternity UI",
-        
-      ],
-      links: [
-    
-        {
-          type: "Codebase",
-          href: "https://github.com/Anantdadhich/devtalk",
-          icon: <Icons.github className="size-3" />,
-        },
-      ]
-    },
+     
     {
       title: "Plinkoo",
       href: "https://plinkoo-azure.vercel.app/",
@@ -389,33 +414,6 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-    },
-    {
-      title: "Webtube",
-      href: "https://web-tube-delta.vercel.app/",
-      dates: "July 2024",
-      active: true,
-      description:
-        "It is Homepage similar like Youtube",
-      technologies: [
-        "React.js",
-         "Typescript",
-     "TailwindCSS",
-         "Shadcn UI",
-    
-      ],
-      links: [
-        {
-          type: "Live URL",
-          href: "https://web-tube-delta.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Codebase",
-          href: "https://github.com/Anantdadhich/Web-tube",
-          icon: <Icons.github className="size-3" />,
-        },
-      ]
     }
   ]
    ,work:[ {

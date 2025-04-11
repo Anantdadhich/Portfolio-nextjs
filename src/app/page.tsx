@@ -46,7 +46,7 @@ export default function Page() {
                 
               </div>
               <TypingEffect
-                className="max-w-[600px] md:text-xl text-green-500 [text-shadow:0_0_10px_rgba(0,255,0,0.5)] font-mono"
+                className="max-w-[600px] md:text-xl dark:text-green-500 text-green-700 [text-shadow:0_0_10px_rgba(0,255,0,0.5)] font-mono"
                 text={DATA.description}
                 delay={0.0025}
                 delayStart={0.75}
@@ -78,10 +78,10 @@ export default function Page() {
                           variant: "ghost",
                           size: "icon",
                         }),
-                        "size-6 sm:size-10"
+                        "size-6 sm:size-10 hover:bg-green-100"
                       )}
                     >
-                      <social.icon className="size-4 sm:size-5 hover:size-4 transition-all" />
+                      <social.icon className="size-4 sm:size-5 hover:size-4 transition-all " />
                     </Link>
                   </TooltipTrigger>
                   <TooltipContent>
@@ -101,7 +101,7 @@ export default function Page() {
         </BlurFade>
       </section>
 <section id="skills">
-      <div className="flex min-h-0 flex-col gap-y-3">
+      <div className="flex min-h-0 flex-col gap-y-3 hover:cursor-pointer">
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
           <h2 className="text-xl font-bold">Tech Stack</h2>
         </BlurFade>
@@ -131,7 +131,7 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl hover:text-green-600 transition-colors duration-300">
                 Check out my latest work
               </h2>
-              <p className="text-green-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed hover:text-green-400 transition-colors duration-300">
+              <p className="text-green-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed hover:text-green-600 transition-colors duration-300">
                 I&apos;ve worked on a variety of projects, from simple
                 websites to complex web applications. Here are a few of my
                 favorites.
@@ -162,7 +162,7 @@ export default function Page() {
       </div>
     </section>
      <section id="work">
-        <div className="flex min-h-0 flex-col gap-y-3">
+        <div className="flex min-h-0 flex-col gap-y-3 bg-transparent">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
@@ -231,7 +231,7 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed !text-green-500 [text-shadow:0_0_10px_rgba(0,255,0,0.5)]">
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed !text-green-700 [text-shadow:0_0_10px_rgba(0,255,0,0.5)]">
                 Wanna connect with me? Drop me a message on my{" "}
                 <Link
                   target="_blank"

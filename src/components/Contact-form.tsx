@@ -57,9 +57,9 @@ export default function ContactForm() {
     }
   };
   return (
-    <form className="space-y-6 mt-5" onSubmit={handleSubmit}>
+    <form className="space-y-6 mt-5 " onSubmit={handleSubmit}>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        <div className="space-y-1.5">
+        <div className="space-y-1.5 ">
           <Input
             id="name"
             type="text"
@@ -67,7 +67,7 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Full Name"
             required={true}
-            className="focus:border-green-500 dark:bg-[#001100] bg-gray-100 rounded-none focus-visible:ring-0  "
+            className="focus:border-green-600 dark:bg-[#001100] bg-transparent rounded-none focus-visible:ring-0  "
             value={form.name}
           />
         </div>
@@ -79,7 +79,7 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Email"
             required={true}
-            className="focus:border-green-500 dark:bg-[#001100] bg-gray-100  rounded-none focus-visible:ring-0"
+            className="focus:border-green-600 dark:bg-[#001100] bg-transparent  rounded-none focus-visible:ring-0"
             value={form.email}
           />
         </div>
@@ -92,14 +92,14 @@ export default function ContactForm() {
           placeholder="Your message"
           onChange={handleChange}
           required={true}
-          className="focus:border-green-500 dark:bg-[#001100] bg-gray-100  rounded-none focus-visible:ring-0 resize-none"
+          className="focus:border-green-600 dark:bg-[#001100] bg-transparent  rounded-none focus-visible:ring-0 resize-none"
           value={form.msg}
         />
       </div>
       <Button
         type="submit"
         disabled={loading}
-        className="w-full flex justify-center items-center gap-1 transition rounded-none"
+        className="w-full flex justify-center items-center gap-1 transition rounded-none "
       >
         {loading ? (
           <>
