@@ -85,7 +85,7 @@ export const DATA = {
       dates: "July 2024 - Aug 2024",
       active: true,
       description:
-        "An AI based Platfrom which generates the course by input the title of the course with specific youtubevideos and quiz ",
+        "An AI-powered platform that generates a structured course of YouTube videos based on the provided title and subtitle, including video summaries and quizzes derived from the content ",
       technologies: [
         "Next.js",
         "Typescript",
@@ -97,9 +97,15 @@ export const DATA = {
         "Next-Auth",
         "Framer Motion",
         "NextAuth",
-        "GeminiAPI"
+        "GeminiAPI",
+        "YoutubeAPI"
       ],
       links: [
+        {
+          type: "Live URL",
+          href: "https://coursu-ai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Codebase",
           href: "https://github.com/Anantdadhich/Coursu.ai",
@@ -113,7 +119,7 @@ export const DATA = {
       dates: "May 2024",
       active: true,
       description:
-        "It is platfrom where we can create or join room and code with other dev to find bug with github repo by sharing and live video call ",
+        "It is a platform where developers can create or join rooms to collaborate on fixing bugs in GitHub repos through live coding, screen sharing, and video calls. Rooms are tagged with relevant programming languages to make finding and solving issues easier ",
       technologies: [
         "Next.js",
         "Typescript",
@@ -127,6 +133,10 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Live URL",
+          href: "https://devfinder-coral.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },{
           type: "Codebase",
           href: "https://github.com/Anantdadhich/Bugfinder-paircode",
           icon: <Icons.github className="size-3" />,
@@ -242,7 +252,7 @@ export const DATA = {
 ,
     {
       title: "Discode",
-      href: "https://discode-production.up.railway.app/",
+      href: "https://discode-xi.vercel.app/",
       dates: "June 2024",
       active: true,
       description:
@@ -260,7 +270,7 @@ export const DATA = {
       links: [
         {
           type: "Live URL",
-          href: "https://discode-production.up.railway.app/",
+          href: "https://discode-xi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -432,7 +442,7 @@ export const DATA = {
       dates: "September 20th - October 2th, 2024",
       location: "Virtual, Devfolio",
       description:
-        "I participated in a hackathon and developed an AI-generated course platform that creates courses using Next.js, Gemini API, and YouTube API.",
+        "Built an AI-driven course creation platform during a hackathon using Next.js, Gemini API, and YouTube API to generate structured courses with video summaries and quizzes",
       
       
     },  {
@@ -440,7 +450,7 @@ export const DATA = {
       dates: "October 3rd -  4th, 2024",
       location: "PIET,Jaipur",
       description:
-        "I participated in a hackathon and developed an NFT music marketplace using technologies like Solidity .",
+        "Took part in a hackathon where I built an NFT music marketplace using Solidity — allowing artists to mint, list, and trade their music as NFTs.",
       
       
     }

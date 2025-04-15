@@ -78,7 +78,7 @@ export default function Page() {
                           variant: "ghost",
                           size: "icon",
                         }),
-                        "size-6 sm:size-10 hover:bg-green-100"
+                        "size-6 sm:size-10 hover:bg-green-100 dark:hover:bg-black"
                       )}
                     >
                       <social.icon className="size-4 sm:size-5 hover:size-4 transition-all " />

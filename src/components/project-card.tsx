@@ -76,7 +76,7 @@ export function ProjectCard({
 
           <CardTitle className="mt-1 text-base dark:text-white text-green-950">{title}</CardTitle>
 
-          <time className="font-sans text-xs dark:text-white text-green-700">{dates}</time>
+          <time className="font-sans text-xs dark:text-white text-green-600">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
