@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bhilwara, India",
   locationLink: "https://maps.app.goo.gl/F5zdd1RkXEdX5uUY8",
   description:
-    "Hi, I am a Full Stack & Blockchain Developer. Currently building in Web3 and beyond, contributing to open-source projects, and always open to freelance gigs. Feel free to contact me! ↓ ",
+    "Hi, I am a Full Stack & Blockchain Developer.Currently building stuff where you just trust the code on solana .I am always eager to learn new things and open to freelance gigs. Feel free to contact me! ↓ ",
   summary:
     "I am  developer i love to code and whenever gets bored i turns into music currently focus on blockchain technologies .",
   skills: [
@@ -145,6 +145,32 @@ export const DATA = {
       image:"/nvidia.png,"
     },
     {
+      title: "BrainyChain.ai",
+      dates: "Nov 2024",
+      active: true,
+      description:
+        "It is an AI-powered Telegram bot designed to guide you in creating a Solana wallet, generating tokens, and minting NFTs ",
+      technologies: [
+        "Telegraf",
+        "Express.js",
+        "Typescript",
+        "Pinata IPFS",
+        "Prisma",
+        "SolanaWeb3.js",
+        "Metaplex",
+         "GeminiAPI"
+      
+      ],
+      links: [
+       
+        {
+          type: "Codebase",
+          href: "https://github.com/Anantdadhich/Brainychain",
+          icon: <Icons.github className="size-3" />,
+        },
+      ]
+    },
+    {
       title: "Checkers",
       dates: "June 2024",
       active: true,
@@ -171,6 +197,27 @@ export const DATA = {
           href: "https://github.com/Anantdadhich/checkers",
           icon: <Icons.github className="size-3" />,
         },
+      ]
+    },
+    {
+      title: "Codemuse",
+      href: "https://codemuse-delta.vercel.app/",
+      dates: "June 2025",
+      active: true,
+      description:
+        "It is AI-powered code inspiration engine where you get personalized project ideas based on your GitHub activity and tech preferences  ",
+      technologies: [
+        "tRPC",
+         "Typescript",
+     "Nextjs",
+        "GeminiAPI"
+      ],
+      links: [
+        {
+          type: "Live URL",
+          href: "https://codemuse-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
       ]
     },
     {
@@ -201,32 +248,7 @@ export const DATA = {
         },
       ]
     },
-     {
-      title: "BrainyChain.ai",
-      dates: "Nov 2024",
-      active: true,
-      description:
-        "It is an AI-powered Telegram bot designed to guide you in creating a Solana wallet, generating tokens, and minting NFTs ",
-      technologies: [
-        "Telegraf",
-        "Express.js",
-        "Typescript",
-        "Pinata IPFS",
-        "Prisma",
-        "SolanaWeb3.js",
-        "Metaplex",
-         "GeminiAPI"
-      
-      ],
-      links: [
-       
-        {
-          type: "Codebase",
-          href: "https://github.com/Anantdadhich/Brainychain",
-          icon: <Icons.github className="size-3" />,
-        },
-      ]
-    }, {
+     , {
       title: "FluidNFT",
       href: "https://web-tube-delta.vercel.app/",
       dates: "July 2024",
@@ -242,6 +264,11 @@ export const DATA = {
          "Metaplex",
       ],
       links: [
+        {
+          type: "Live URL",
+          href: "https://fluidnft.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Codebase",
           href: "https://github.com/Anantdadhich/fluidnft",
@@ -370,32 +397,6 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ]
-    },{
-      title: "Boulder-pass",
-      href: "https://boulder-pass-liart.vercel.app",
-      dates: "July 2024",
-      active: true,
-      description:
-        "It is platform where we can play game with our hand gestures with both hands",
-      technologies: [
-        "Next.js",
-         "Typescript",
-     "TailwindCSS",
-         "Shadcn UI",
-        "MediaPipe"
-      ],
-      links: [
-        {
-          type: "Live URL",
-          href: "https://boulder-pass-liart.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Codebase",
-          href: "https://github.com/Anantdadhich/Boulder-pass-",
-          icon: <Icons.github className="size-3" />,
-        },
-      ]
     },
     {
       title: "Technoverse",
@@ -436,7 +437,7 @@ export const DATA = {
       start: "July 2024",
       end: "Aug 2024",
      
-    }], hackathons: [
+    },], hackathons: [
     {
       title: "Google Gen AI",
       dates: "September 20th - October 2th, 2024",
@@ -453,7 +454,14 @@ export const DATA = {
         "Took part in a hackathon where I built an NFT music marketplace using Solidity — allowing artists to mint, list, and trade their music as NFTs.",
       
       
+    },{
+      title: "100xDevs Solana Hackathon",
+      dates: "May 2025",
+      location: "Virtual, Superteam",
+      description:
+        "Won a $100 bounty and ranked among the top 40 projects in a hackathon held by 100xdevs SuperteamIn.",
     }
+    
     
   ]
     

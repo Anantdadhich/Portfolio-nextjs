@@ -141,7 +141,7 @@ export default function Page() {
         </BlurFade>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
           {DATA.projects.map((project, id) => (
-            <BlurFade
+             project && ( <BlurFade
               key={project.title}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
@@ -157,6 +157,7 @@ export default function Page() {
                 />
               </div>
             </BlurFade>
+             )
           ))}
         </div>
       </div>
